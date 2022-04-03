@@ -4,7 +4,6 @@ import { useForm, Controller } from "react-hook-form";
 
 const FormRegister = () => {
   const {
-    register,
     handleSubmit,
     formState: { errors },
     control,
@@ -38,7 +37,7 @@ const FormRegister = () => {
               class="font-medium text-indigo-600 hover:text-indigo-500"
             >
               {" "}
-              start your 14-day free trial{" "}
+              Sign In{" "}
             </a>
           </p>
         </div>
